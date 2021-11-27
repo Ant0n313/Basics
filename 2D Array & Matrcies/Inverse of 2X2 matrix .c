@@ -8,17 +8,17 @@ void inverse_2X2 (int m1[][N], int r, int c){
 
     if (det){ //if det != 0 (aka the matrix has an inverse)
     
-      float ans[2][2];
+      float inverse[2][2];
 
-      ans[0][0] = m1[1][1];
-      ans[0][1] = -m1[0][1];
-      ans[1][0] = -m1[1][0];
-      ans[1][1] = m1[0][0];
+      inverse[0][0] = m1[1][1];
+      inverse[0][1] = -m1[0][1];
+      inverse[1][0] = -m1[1][0];
+      inverse[1][1] = m1[0][0];
 
       printf("The inverse of the matrix is:\n");
       for (int i = 0; i < 2; i++){
         for (int j = 0; j < 2; j++)
-          printf("%.2f ", (ans[i][j] / det));
+          printf("%.2f ", (inverse[i][j] / det));
         printf("\n");
       }
 
