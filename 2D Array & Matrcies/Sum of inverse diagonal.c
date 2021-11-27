@@ -14,7 +14,7 @@ void sum_inverse_diagonal(int r,int c, int m1[][N]){
       sum += m1[i][j];
   }
     
-  printf ("sum of main diagonal = %d", sum);
+  printf ("Sum of inverse diagonal = %d", sum);
  
 }
 int main () {
