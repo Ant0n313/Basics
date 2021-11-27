@@ -3,7 +3,7 @@
 #define N 100
 
 void sum_main_diagonal(int r,int c, int m1[][N]){
-  if (r != c) {
+  if (r != c) { // Must be squaare Matrix
     printf("sorry can't preform this opertion\nWrong Dimensions!");
     return;
   }
@@ -20,6 +20,7 @@ int main () {
  
   printf("please enter rows and coulmns of first matrix: ");
   scanf("%d%d",&r,&c);
+  
   printf ("enter the first matrix %d X %d", r, c);
   for (int i = 0; i < r; i++)
     for (int j = 0; j < c; j++)
