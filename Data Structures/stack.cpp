@@ -82,7 +82,7 @@ int size(Stack* s) {
     printf("\t2. Push item\n");
     printf("\t3. Pop item\n");
     printf("\t4. Top item\n");
-    printf("\t5. Size\n");
+    printf("\t5. Number of items\n");
     printf("\t6. Exit\n");
 
     printf("\n\nEnter a choice: ");
@@ -132,10 +132,10 @@ int size(Stack* s) {
         printf ("\n\n\t%d is on top of the stack",item);
     }
     else if (choice == '5')       // Size of stack
-      printf ("\n\n\tSize of stack now is %d",size(&s));
+      printf ("\n\n\tNumber of items in stack =  %d",size(&s));
     else {
       printf ("Wrong input");
-      Sleep(100);
+      Sleep(1000);
       continue;
     }
     Sleep(1500);
