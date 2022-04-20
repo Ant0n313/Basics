@@ -1,5 +1,5 @@
 #include <stdio.h>
-// Selection Sort 
+// Insertion Sort 
 // Worst Complexity O(n^2)
 
 void InsertonSort (int A[], int n) {
