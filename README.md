@@ -1,2 +1,4 @@
-# Basics
-Some basic code to start with and to know in C
+# DSA
+
+Implementing the major Data structures & Algorithms using **C/C++** which helping freshers who wish to join the programming stream to start with!
+
